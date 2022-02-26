@@ -15,6 +15,7 @@ public class HwApplication {
         t.setFirstName("abc");
         t.setLastName("def");
         t.setSalary("12345");
+        t.setDeptName("IT");
         System.out.println(t.toString());
     }
 }

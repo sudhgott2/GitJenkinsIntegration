@@ -11,4 +11,5 @@ public class Test {
 
     private @Getter @Setter String lastName;
     private  @Getter @Setter String salary;
+    private @Getter @Setter String deptName;
 }
