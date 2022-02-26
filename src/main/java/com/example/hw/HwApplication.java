@@ -14,6 +14,7 @@ public class HwApplication {
         Test t = new Test();
         t.setFirstName("abc");
         t.setLastName("def");
+        t.setSalary("12345");
         System.out.println(t.toString());
     }
 }

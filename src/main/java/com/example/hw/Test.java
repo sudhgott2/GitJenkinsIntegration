@@ -10,4 +10,5 @@ public class Test {
     String firstName;
 
     private @Getter @Setter String lastName;
+    private  @Getter @Setter String salary;
 }
