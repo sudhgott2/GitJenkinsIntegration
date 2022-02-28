@@ -1,4 +1,4 @@
 FROM openjdk:11
-COPY target/classes/ /tmp
+COPY target/docker-jenkins-integration-sample.jar /tmp
 WORKDIR /tmp
-CMD java com.example.hw.HwApplication
+ENTRYPOINT ["java","-jar","/docker-jenkins-integration-sample.jar"]
