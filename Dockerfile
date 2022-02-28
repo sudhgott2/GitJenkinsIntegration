@@ -1,3 +1,4 @@
-EXPOSE 8091
-ADD target/docker-jenkins-integration-sample.jar docker-jenkins-integration-sample.jar
-ENTRYPOINT ["java", "jar", "/docker-jenkins-integration-sample.jar"]
+FROM openjdk:11
+COPY target/classes/ /tmp
+WORKDIR /tmp
+CMD java com.example.hw.HwApplication

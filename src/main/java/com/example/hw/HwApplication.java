@@ -10,7 +10,7 @@ public class HwApplication {
         SpringApplication.run(HwApplication.class, args);
 
 
-        System.out.println("Hello1");
+        System.out.println("Hello1234");
         Test t = new Test();
         t.setFirstName("abc");
         t.setLastName("def");
